@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 10px;
   background-color: black;
-  background-image: url(bg_lodyas.png);
+  background-image: url(assets/bg_lodyas.png);
   background-repeat:repeat-x;
   color: #efefef;
 }
