@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  background-image: url(bg_lodyas.png);
+  background-repeat:repeat-x;
+  color: #efefef;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+
+a:link { color: white; text-decoration: none; }
+a:visited { color: white; text-decoration: none; }
+a:hover { color: white; text-decoration: underline; }
+a:focus { color: white; text-decoration: none; }
+a:active { color: white; text-decoration: none; }
+a:visited:hover { color: white; text-decoration: underline; }
+
+
+form {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 280px;
+}
+
+.btn-primary {
+  background-color: #DD0031 !important;
+  border-color: #C3002F !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:visited:hover {
+  background-color: #C3002F !important;
+  border-color: #C3002F !important;
+}
+
+.gray {
+  color: gray;
+}
