@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head lang="en">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Heidelberg Meetup</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-image: none;
+    }
+
+    h2 {
+      font-size: 20em;
+      text-align: center;
+      margin-top: 200px;
+    }
+
+    blink {
+      animation: blinker 1s linear infinite;
+    }
+
+    iframe {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+    @keyframes blinker {
+      50% { opacity: 0; }
+    }
+    .blink-one {
+      animation: blinker-one 1s linear infinite;
+    }
+    @keyframes blinker-one {
+      0% { opacity: 0; }
+    }
+    .blink-two {
+      animation: blinker-two 2s linear infinite;
+    }
+    @keyframes blinker-two {
+      100% { opacity: 0; }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>
+    <a href="/meetup_v9.html" target="content"><img src="assets/angular_heidelberg_logo.png" height="80px"></a>&nbsp;
+    <a href="/meetup_v9.html" target="content" class="d-md-inline">#ngHeidelberg v9</a>
+
+    &nbsp; | &nbsp; short coffee break<blink>...</blink>
+  </h1>
+
+  <h2>☕️</h2>
+
+  <a class="spreaker-player"
+    href="https://www.spreaker.com/user/ng-conf/angular-v9-duh"
+    data-resource="episode_id=24755050"
+    data-theme="dark"
+    data-autoplay="true"
+    data-playlist="false"
+    data-width="100%"
+    data-height="200px">Listen to "Angular V9 Duh (Musical Parody)" on Spreaker.</a>
+  <script async src="https://widget.spreaker.com/widgets.js"></script>
+
+
+</body>
+</html>
